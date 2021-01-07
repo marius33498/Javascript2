@@ -1,0 +1,50 @@
+html{
+    background-color: #ddd;
+    color: black;
+}
+
+.container{
+    width: 1060px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    height: 100%;
+    
+}
+.topMenu{
+    padding: 10px;
+    margin-left: 15px;
+}
+.topMenu a{
+    text-decoration: none;
+    padding: 10px;
+}
+.active{
+    color: red;
+}
+
+.results{
+    padding: 20px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-size: 1.2em;
+    text-align: left;
+}
+p{
+    font-weight: 800;
+}
+.text-input{
+    top: 0;
+    padding: 30px;
+}
+.loader{
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #3498db;
+    animation: spin 2s linear infinite;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
